@@ -9,20 +9,21 @@ struct FocusStateView: View {
     var body: some View {
         VStack(spacing: 32) {
             HStack {
-                Button("Select Text Field 1") {
+                Button("TextField 1") {
                     isTextField1Focused.toggle()
                 }
-                Button("Select Text Field 2") {
+                Button("TextField 2") {
                     isTextField2Focused.toggle()
+                }
+                Button("Hide KBoard") {
+                    isTextField1Focused = false
+                    isTextField2Focused = false
                 }
             }
             .buttonStyle(.borderedProminent)
 
-            Divider()
-
             TextField("Text field 1", text: .constant(""))
                 .focused($isTextField1Focused)
-
 
             TextField("Text field 2", text: .constant(""))
                 .focused($isTextField2Focused)
