@@ -19,6 +19,7 @@
 		B64809272B34565800246BF8 /* Warnings and Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64809262B34565800246BF8 /* Warnings and Comments.swift */; };
 		B64809292B345E0700246BF8 /* FokusStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64809282B345E0700246BF8 /* FokusStateView.swift */; };
 		B648092B2B34603000246BF8 /* NightAndDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648092A2B34603000246BF8 /* NightAndDay.swift */; };
+		B6AC745C2B4F229200C4796A /* OnlineDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC745B2B4F229200C4796A /* OnlineDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B64809262B34565800246BF8 /* Warnings and Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Warnings and Comments.swift"; sourceTree = "<group>"; };
 		B64809282B345E0700246BF8 /* FokusStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FokusStateView.swift; sourceTree = "<group>"; };
 		B648092A2B34603000246BF8 /* NightAndDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightAndDay.swift; sourceTree = "<group>"; };
+		B6AC745B2B4F229200C4796A /* OnlineDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				B64809202B33957800246BF8 /* DeleteAndMoveView.swift */,
 				B64809222B339A4C00246BF8 /* Formatting Buttons etc.swift */,
 				B64809242B3455F600246BF8 /* AppState Internet Connectivity.swift */,
+				B6AC745B2B4F229200C4796A /* OnlineDemoView.swift */,
 				B64809282B345E0700246BF8 /* FokusStateView.swift */,
 				B64809262B34565800246BF8 /* Warnings and Comments.swift */,
 				B648092A2B34603000246BF8 /* NightAndDay.swift */,
@@ -166,6 +169,7 @@
 				B64809252B3455F600246BF8 /* AppState Internet Connectivity.swift in Sources */,
 				B64809112B338FB600246BF8 /* MainView.swift in Sources */,
 				B648090F2B338FB600246BF8 /* PracticalStuffApp.swift in Sources */,
+				B6AC745C2B4F229200C4796A /* OnlineDemoView.swift in Sources */,
 				B64809272B34565800246BF8 /* Warnings and Comments.swift in Sources */,
 				B64809232B339A4C00246BF8 /* Formatting Buttons etc.swift in Sources */,
 				B648091F2B3390F000246BF8 /* ExpandingViews.swift in Sources */,

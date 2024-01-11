@@ -3,6 +3,7 @@
 import Foundation
 
 class NothingAtAll {
+    /// This is blabla
     init() {
         //
 

@@ -2,20 +2,6 @@ import Foundation
 import Network
 import SwiftUI
 
-
-struct AppStateDemoView: View {
-    @EnvironmentObject var appState: AppState
-
-    var body: some View {
-        ZStack {
-            appState.isOffline ? Color.gray : Color.white
-            Text("Hello, World!")
-        }
-    }
-}
-
-
-
 class AppState: ObservableObject {
     @Published var isOffline: Bool = true
 
@@ -23,7 +9,6 @@ class AppState: ObservableObject {
         setupInternetMonitoring()
     }
 
-    
     private var monitor = NWPathMonitor()
 
     func setupInternetMonitoring() {

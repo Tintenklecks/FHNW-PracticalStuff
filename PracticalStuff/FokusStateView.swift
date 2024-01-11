@@ -2,6 +2,8 @@
 
 import SwiftUI
 
+/// REMEMBER: CMD+K in simulator toggles the keyboard
+
 struct FocusStateView: View {
     @FocusState private var isTextField1Focused: Bool
     @FocusState private var isTextField2Focused: Bool
